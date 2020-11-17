@@ -30,7 +30,10 @@
             font-family: 'Courier New', Courier, monospace;
             font-size: 20px;
             text-align: center;
-        }
+        } 
+        .Textbox1 {
+            width: 100px; height: 200px; size: 400px;
+            }
         </style>
 </head>
 <body>
@@ -56,35 +59,28 @@
    <center>
        <img src="contato.png">
    </center>
-   <form name="meuForm" method="post" id="formulario">
-	<div class="box">
-        <h1 ">Formulario de Contato </h1>
-
-		<label>
-			<span>Nome</span>
- 			<input type="text" class="input_text" name="nome" id="name"/><br>
-
-		</label>
-
-		<label>
- 			<span>Email</span>
-            <input type="text" class="input_text" name="email" id="email"/><br>
-            
-		 </label>
-
-		<label>
- 			<span>Assunto</span>
-            <input type="text" class="input_text" name="assunto" id="subject"/><br>
-            
-		</label>
-
-		<label>
-			 <span>Mensagem</span>
-            <textarea class="message" name="feedback" id="feedback"></textarea><br>
-            
-			<input type="button" class="button" value="Enviar" />
-		</label>
-	</div>
+   <form action="processa.php" method="post">
+       <center>
+           <fieldset>
+               <legend>Preencha o formulário</legend>
+               <label>Nome:</label>
+               <input type="text" name="txtname" placeholder="Digite seu Nome"><br>
+               <label>E-mail:</label>
+               <input type="email" name="txtemail" placeholder="Digite seu e-mail"><br>
+               <label>Tel:</label>
+               <input type="tel" name="usertel" placeholder="DDD + Telefone"><br>
+               <label>Qual o motivo do seu contato?</label><br>
+               <input type="radio" name="radio1" value="1">Dúvidas
+               <input type="radio" name="radio2" value="2">Críticas
+               <input type="radio" name="radio3" value="3">Outros<br>
+               <textarea cols="100" id="txtmensagem" rows="10" name="txtmensagem" maxlength="1000" wrap="hard" placeholder="Digite aqui a sua mensagem"></textarea><br>
+               <label>Adicionar um arquivo</label>
+               <input type="file" name="arquivos" multiple><br>
+               <input type="submit" value="Enviar" name="subimit">
+           </fieldset>
+       </center>       
+   </form>
+	
 </form>
 </body>
 </html>
