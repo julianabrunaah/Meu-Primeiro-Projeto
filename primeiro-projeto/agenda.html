@@ -32,6 +32,18 @@
         font-size: 20px;
         text-align: center;
     }
+    .imagem {
+        background-image: url(agenda.png);
+        align-self: center;
+    }
+    .textoagenda {
+        position:absolute;
+        text-align:right;
+        top: 800px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 25px;
+        right: 250px;
+    }
     </style>
 </head>
 <body>
@@ -52,13 +64,34 @@
            <a href="agenda.html"><li>AGENDE</li></a>
            <a href="contato.html"><li>CONTATO</li></a>
        </ul>
-
-   </nav>
-   <Nav class="texto5">
-       <p>
-        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-       </p>
-   </Nav>
-    
+       <center><
+       <div class="imagem">
+           <div class="textoagenda">
+               <fieldset>
+               <form action="agenda.php" method="POST">
+                   <center>
+                   <label>Nome completo</label>
+                   <input type="text" name="nome.agenda" placeholder="Digite seu nome completo"><br>
+                   <label>Contato</label>
+                   <input type="tel" name="contato.agenda" placeholder="(99)99999-9999"><br>
+                   <label>E-mail</label>
+                   <input type="email" name="email.agenda" placeholder="Digite seu e-mail"><br>
+                   <label>Cupom</label>
+                   <input type="text" name="cupom.agenda" placeholder="Digite seu cupom"><br>
+                   <label>Horário</label>
+                   <input type="datetime-local" name="data.agenda"><br>
+                   <label>Procedimento</label><br>
+                   <input type="radio" name="p1" value="1">xxxxxx
+                   <input type="radio" name="p2" value="2">xxxxxx
+                   <input type="radio" name="p3" value="3">xxxxxx
+                   <input type="radio" name="p4" value="4">xxxxxx<br>
+                   <input type="submit" value="Pronto!"
+                   </center>
+               </form>
+               </fieldset>
+           </div>
+       </div>
+       <img src="agenda.png"
+    </center>
 </body>
 </html>
