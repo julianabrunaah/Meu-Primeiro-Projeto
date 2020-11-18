@@ -16,20 +16,10 @@ body {
     align-items: center;
 }
 .menu ul li:hover{
-    background-color: #f7fbf8;
+    background-color: #fff7f8;
 }
-.texto1 {
+p {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-    text-align: center;
-}
-.texto2 {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-    text-align: center;
-}
-.texto3 {
-    font-family:'Courier New', Courier, monospace;
     font-size: 20px;
     text-align: center;
 }
@@ -45,11 +35,6 @@ body {
     font-size: 25px;
     right: 30px;
     width: 200;
-}
-.texto5 {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-    text-align: center;
 }
 .imagem {
     background-image: url(agenda.png);
