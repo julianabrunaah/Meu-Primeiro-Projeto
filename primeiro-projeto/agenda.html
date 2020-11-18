@@ -15,14 +15,14 @@
         <ul>
            <a href="index.html"><li>INÍCIO</li></a>
            <a href="sobre.html"><li>SOBRE</li></a>
-           <a href="tratamentos.html">><li>TRATAMENTOS</li></a>
+           <a href="tratamentos.html"><li>TRATAMENTOS</li></a>
            <a href="https://www.instagram.com/"><li>INSTAGRAM</li></a>
            <a href="agenda.html"><li>AGENDE</li></a>
            <a href="contato.html"><li>CONTATO</li></a>
        </ul>
     </nav>
     </header>
-    
+
     <center>
        <div class="imagem">
            <div class="textoagenda">
@@ -44,7 +44,14 @@
                    <input type="radio" name="p2" value="2">xxxxxx
                    <input type="radio" name="p3" value="3">xxxxxx
                    <input type="radio" name="p4" value="4">xxxxxx<br>
-                   <input type="submit" value="Pronto!"
+                   <input type="submit" value="Pronto!" onclick="msg1()">
+                   <Script>
+                       function msg1(){
+                           alert(
+                               "Agendado realizado com sucesso."
+                           )
+                       }
+                   </Script>
                    </center>
                </form>
                </fieldset>

@@ -56,3 +56,12 @@ p {
 .Textbox1 {
     width: 100px; height: 200px; size: 400px;
 }
+footer {
+    clear: both;
+    background-color: #fff7f8;
+    height: 250px;
+}
+div.rodape {
+    font-family: 'Courier New', Courier, monospace; 
+    font-size: 25px;
+}

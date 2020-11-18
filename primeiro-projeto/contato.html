@@ -16,8 +16,8 @@
             <ul>
                 <a href="index.html"><li>INÍCIO</li></a>
                 <a href="sobre.html"><li>SOBRE</li></a>
-                <a href="tratamentos.html">><li>TRATAMENTOS</li></a>
-                 a href="https://www.instagram.com/"><li>INSTAGRAM</li></a>
+                <a href="tratamentos.html"><li>TRATAMENTOS</li></a>
+                <a href="https://www.instagram.com/"><li>INSTAGRAM</li></a>
                 <a href="agenda.html"><li>AGENDE</li></a>
                 <a href="contato.html"><li>CONTATO</li></a>
            </ul>
@@ -44,7 +44,14 @@
                <textarea cols="100" id="txtmensagem" rows="10" name="txtmensagem" maxlength="1000" wrap="hard" placeholder="Digite aqui a sua mensagem"></textarea><br>
                <label>Adicionar um arquivo</label>
                <input type="file" name="arquivos" multiple><br>
-               <input type="submit" value="Enviar" name="subimit">
+               <input type="submit" value="Enviar" name="subimit" onclick="msg()">
+               <script>
+                   function msg(){
+                       alert(
+                           "Formulário enviado com sucesso!"
+                       )
+                   }
+               </script>
            </fieldset>
        </center>       
    </form>
