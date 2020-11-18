@@ -8,7 +8,7 @@ body {
     float: left;
     width: 193px;
     height: 30px;
-    display: inline;
+    display: inline-block;
     text-align: center;
     line-height: 30px;
     font-size: 20px;
@@ -18,10 +18,16 @@ body {
 .menu ul li:hover{
     background-color: #fff7f8;
 }
+.menurodape ul li {
+    color: black;
+    height: 25px;
+    display: inline-block;
+}
 p {
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
-    text-align: center;
+    text-align: justify;
+    padding: 30px;
 }
 .imagemtramento {
     background-image: url(tratamentos.png);
@@ -59,7 +65,7 @@ p {
 footer {
     clear: both;
     background-color: #fff7f8;
-    height: 250px;
+    height: 200px;
 }
 div.rodape {
     font-family: 'Courier New', Courier, monospace; 
