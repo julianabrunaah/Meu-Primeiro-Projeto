@@ -4,8 +4,7 @@ body {
 }
 .menu ul li{
     background-color: #fffcff;
-    color: black;
-    float: left;
+    color: black;   
     width: 193px;
     height: 30px;
     display: inline-block;
