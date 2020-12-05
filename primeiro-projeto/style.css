@@ -76,8 +76,9 @@ p {
     height: 50px;
 }
 .coluna {
+    margin-left: 90px;
     display: inline;
-    float: right;
+    float: left;
     width:300px;
     color: black;
     height: 25px;
