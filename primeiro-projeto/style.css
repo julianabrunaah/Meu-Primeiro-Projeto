@@ -67,6 +67,8 @@ p {
 .wrapper {
     min-height: 100%;
     margin-bottom: -50px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
   
 .footer,
@@ -75,6 +77,8 @@ p {
 }
 .coluna {
     display: inline;
-    float: left;
+    float: right;
     width:300px;
+    color: black;
+    height: 25px;
 }
