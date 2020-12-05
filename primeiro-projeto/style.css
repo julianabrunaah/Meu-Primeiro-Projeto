@@ -1,6 +1,8 @@
 body {
     background-color: #fcfcfc;
     color: black;
+    height: 100%;
+    margin: 0;
 }
 .menu ul li{
     background-color: #fffcff;
@@ -62,12 +64,17 @@ p {
 .Textbox1 {
     width: 100px; height: 200px; size: 400px;
 }
-footer {
-    clear: both;
-    background-color: #fff7f8;
-    height: 200px;
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
 }
-div.rodape {
-    font-family: 'Courier New', Courier, monospace; 
-    font-size: 25px;
+  
+.footer,
+.push {
+    height: 50px;
+}
+.coluna {
+    display: inline;
+    float: left;
+    width:300px;
 }
